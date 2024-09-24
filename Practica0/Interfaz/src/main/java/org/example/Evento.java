@@ -7,13 +7,16 @@ import java.awt.event.ActionListener;
 
 public class Evento extends JPanel implements ActionListener {
 
-    private JButton JBjugar;
+    JPanel jPanel;
 
     public Evento() {
-        this.setLayout((LayoutManager)null);
-        this.JBjugar = new JButton("JUGAR");
-        this.JBjugar.setBounds(800, 460, 280, 80);
-        this.add(this.JBjugar);
+        setLayout((LayoutManager)null);
+
+        jPanel = new JPanel();
+        jPanel.setPreferredSize(new Dimension(Ventana.getWidth(), 200));
+        jPanel.setBackground(Color.red);
+        add(jPanel);
+        jPanel.setVisible(true);
     }
 
     public void actionPerformed(ActionEvent e) {

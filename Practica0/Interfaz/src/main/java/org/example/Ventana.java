@@ -6,15 +6,15 @@ public class Ventana  extends JFrame {
 
     public Ventana() {
         setTitle("PRUEBA");
-        setBounds(0, 0, 1920, 1080);
+        setExtendedState(JFrame.MAXIMIZED_BOTH);
+       // setSize(Toolkit.getDefaultToolkit().getScreenSize());
         setResizable(true);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
-
-        //Evento e = new Evento();
+        Evento e = new Evento();
 
         setVisible(true);
         {
-            //add(e);
+            add(e);
             setVisible(true);
         }
     }
