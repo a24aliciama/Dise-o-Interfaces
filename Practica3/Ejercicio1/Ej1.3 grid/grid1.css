@@ -1,0 +1,23 @@
+body{
+    background-color: white;
+    margin: 0;
+}
+
+div{
+    
+    height: 100vh;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+   
+}
+
+#rojo{
+    background-color: red;
+}
+#blanco{
+    background-color: rgb(255, 255, 255);
+}
+
+#azul{
+    background-color: blue;
+}

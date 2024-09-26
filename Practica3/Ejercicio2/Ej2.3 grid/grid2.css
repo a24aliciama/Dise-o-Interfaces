@@ -1,0 +1,28 @@
+body{
+    background-color: white;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    height: 100vh; 
+}
+
+div{
+    display: grid;
+    grid-template-columns: 45vw 45vw;
+    height: 90vh;
+}
+
+#amarillo{
+    height: 99%;
+    background-color: rgb(240, 230, 140);
+    border: 2px solid rgb(77, 103, 88);
+
+}
+
+
+#azul{
+    
+    height: 99%;
+    background-color: rgb(224, 255, 255);
+    border: 2px solid rgb(207, 117, 117);
+}
