@@ -4,9 +4,11 @@ body{
 }
 
 div{
-   display: flex;
+    box-sizing: border-box;
+    display: flex;
     width: 100vw;
     height: 100vh;
+    border: 2px dotted black;
 }
 
 #rojo{
@@ -14,12 +16,14 @@ div{
     width: 33.33%;
     height: 100%;
     background-color: red;
+    border: none;
 }
 #blanco{
     flex: 1;
     width: 33.33%;
     height: 100%;
     background-color: rgb(255, 255, 255);
+    border: none;
 }
 
 #azul{
@@ -27,4 +31,5 @@ div{
     width: 33.33%;
     height: 100%;
     background-color: blue;
+    border: none;
 }

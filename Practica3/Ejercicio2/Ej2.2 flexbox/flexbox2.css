@@ -7,15 +7,18 @@ body{
     height: 100vh; 
 }
 
-div{
+#padre{
     display: flex;
-    width: 90vw;
-    height: 80vh;
+    width: 100vw;
+    height: 100vh;
+    
+    border: 2px dotted rgb(207, 117, 117);
 }
 
 #amarillo{
+    box-sizing: border-box;
     flex: 1;
-    height: 99%;
+    height: 60%;
     background-color: rgb(240, 230, 140);
     border: 2px solid rgb(77, 103, 88);
 
@@ -23,8 +26,9 @@ div{
 
 
 #azul{
+    box-sizing: border-box;
     flex: 1;
-    height: 99%;
+    height: 60%;
     background-color: rgb(224, 255, 255);
     border: 2px solid rgb(207, 117, 117);
 }
