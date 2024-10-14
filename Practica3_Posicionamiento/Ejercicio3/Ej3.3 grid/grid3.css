@@ -10,12 +10,14 @@ div{
 #padre{
     width: 100vw;
     height: 100vh;
+    border: 5px solid rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px;
 }
 
 #derecha{
-    float: left;
     height: 100%;
-    width: 50%;
     background-color: aliceblue;
 }
     #verde{
@@ -37,8 +39,6 @@ div{
 
 
 #izquierda{
-    float: right;
-    width: 50%;
     height: 100%;
     background-color: bisque;
 }
@@ -58,4 +58,3 @@ div{
         border: 15px solid white;
         border-left: calc(15px/2) solid white;
     }
-
