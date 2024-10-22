@@ -1,0 +1,458 @@
+
+
+
+.cabecera{
+
+    background: url(../Imagenes/CabeceraHome.jpg) no-repeat center center fixed;
+	background-size:cover;
+	height: 900px;
+	width: 100%;
+	position: absolute;
+
+}
+
+.uno h6{
+
+    font-size: 120px;
+    text-align: center;
+    color: white;
+
+}
+.uno{
+
+    z-index: 0;
+    position: absolute;
+
+    margin-top: 360px;
+
+    height: fit-content;
+    width: 100%;
+    
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.circulo{
+
+    z-index: 2;
+    
+}
+.logo{
+
+    width: 100px;
+    height: 100px;
+
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 100%;
+
+    position: absolute;
+
+}
+
+#menu{
+
+    width: 50px;
+    height: 50px;
+
+    margin-top: 140px;
+    margin-left: 70px;
+    z-index: 1;
+
+    border: 1px solid rgba(95, 158, 160, 0);
+    border-radius: 100%;
+    
+    color: white;
+    background-color: rgba(65, 65, 65, 0.137);
+
+}
+.menu{
+
+    background-color: rgba(129, 129, 129, 0.8);
+
+    border: 1px solid rgba(255, 127, 80, 0);
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 40%;
+    border-top-right-radius: 10%;
+    border-top-left-radius: 1%;
+
+    width: 300px;
+
+}
+.btnMenu{
+    
+    color: white;
+    height: 60px;
+    font-size: 25px;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    
+}
+.btnMenu:hover{
+
+    color:rgb(0, 0, 0);
+
+}
+
+
+
+.sectionAct{
+
+    padding-top: 990px;
+    z-index: 3;
+    
+}
+
+.sectionAct h5{
+
+    z-index: 3;
+
+    text-align: center;
+    color:black;
+    font-size: 40px;
+
+}
+
+.card-main{
+
+    border:3px solid rgb(230, 230, 236);
+    border-radius:10px;
+    height:300px;
+    width:250px;
+
+}
+#card-act1{
+
+    background-image: url(../Imagenes/h1.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: left;
+}
+#card-act2{
+
+    background-image: url(../Imagenes/b1.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+}
+#card-act3{
+
+    background-image: url(../Imagenes/a1.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+}
+#card-act4{
+
+    background-image: url(../Imagenes/t1.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+}
+#card-act5{
+
+    background-image: url(../Imagenes/a2.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+}
+
+
+#card-plus-act{
+    
+    height:300px;
+    width:125px;
+
+}
+.refPlus{
+    text-decoration: none;
+}
+.btnPlus{
+
+    background-image: linear-gradient(to left , rgba(255, 255, 255, 0),rgb(255, 255, 255)), url("../Imagenes/fotoBtnAct.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: left;
+
+    border:1px solid rgb(255, 255, 255);
+    border-top-right-radius:100%;
+    border-bottom-right-radius:100%;
+
+    width: 125px;
+    height: 300px;
+
+    color:rgb(0, 0, 0);
+}
+.btnPlus:hover{
+
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.507),rgb(255, 255, 255)), url("../Imagenes/fotoBtnAct.jpg");
+
+}
+.btnPlus:active{
+
+    background-image: linear-gradient(to left , rgba(255, 255, 255, 0.87),rgb(255, 255, 255)), url("../Imagenes/fotoBtnAct.jpg");
+    
+}
+#tituloBtnAct{
+    
+    font-size: 100px;
+}
+
+
+.card-label{
+    height:fit-content;
+    width:100%;
+    border-bottom: 1px solid black;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.986));
+    color:ghostwhite;
+    display: none;
+}
+.titulo{
+    margin-top: 2%;
+    margin-left: 6px;
+    margin-right: 6px;
+    text-align: center;
+    font-size: large;
+}
+.subtitulo{
+
+    margin-top: 2%;
+    text-align: center;
+    font-size: medium
+
+}
+.descripcion{
+
+    margin:5px;
+    font-size: smaller;
+    text-align: center;
+}
+
+.sectionObras{
+
+    padding-top: 90px;
+    z-index: 4;
+    
+}
+.sectionObras h5{
+
+    text-align: center;
+    color:black;
+    font-size: 40px;
+
+}
+#card-obras1{
+
+    background-image: url(../Imagenes/bernarda.JPG);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+#card-obras2{
+
+    background-image: url(../Imagenes/electra.JPG);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+}
+#card-obras3{
+
+    background-image: url(../Imagenes/troyanas.jpeg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: bottom;
+
+}
+#card-obras4{
+
+    background-image: url(../Imagenes/bacantes.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+}
+#card-obras5{
+
+    background-image: url(../Imagenes/anfitrion.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+}
+.btnPlus2{
+
+    background-image: linear-gradient(to left , rgba(255, 255, 255, 0),rgb(255, 255, 255)), url("../Imagenes/fotoBtnObras.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: left;
+
+    border:1px solid rgb(255, 255, 255);
+    border-top-right-radius:100%;
+    border-bottom-right-radius:100%;
+
+    width: 125px;
+    height: 300px;
+
+    color:rgb(0, 0, 0);
+}
+.btnPlus2:hover{
+
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.507),rgb(255, 255, 255)), url("../Imagenes/fotoBtnObras.jpg");
+
+}
+.btnPlus2:active{
+
+    background-image: linear-gradient(to left , rgba(255, 255, 255, 0.87),rgb(255, 255, 255)), url("../Imagenes/fotoBtnObras.jpg");
+    
+}
+
+
+.sectionGrupos{
+
+    padding-top: 90px;
+    z-index: 5;
+
+}
+.sectionGrupos h5{
+
+    text-align: center;
+    color:black;
+    font-size: 40px;
+
+}
+.tituloTar{
+
+    color: white;
+
+    margin-top: 50%;
+
+    background-color: rgba(0, 0, 0, 0.527);
+
+}
+
+#card-grupos1{
+
+    background-image: url(../Imagenes/noitinha.JPG);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+}
+#card-grupos2{
+
+    background-image: url(../Imagenes/abrente.jfif);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+}
+#card-grupos3{
+
+    background-image: url(../Imagenes/noite.jfif);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+}
+#card-grupos4{
+
+    background-image: url(../Imagenes/eclipse.JPG);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+}
+#card-grupos5{
+
+    background-image: url(../Imagenes/unete.JPG);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+}
+.btnPlus3{
+
+    background-image: linear-gradient(to left , rgba(255, 255, 255, 0),rgb(255, 255, 255)), url("../Imagenes/fotoBtnGrupos.png");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: left;
+
+    border:1px solid rgb(255, 255, 255);
+    border-top-right-radius:100%;
+    border-bottom-right-radius:100%;
+
+    width: 125px;
+    height: 300px;
+
+    color:rgb(0, 0, 0);
+}
+.btnPlus3:hover{
+
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.507),rgb(255, 255, 255)), url("../Imagenes/fotoBtnGrupos.png");
+
+}
+.btnPlus3:active{
+
+    background-image: linear-gradient(to left , rgba(255, 255, 255, 0.87),rgb(255, 255, 255)), url("../Imagenes/fotoBtnGrupos.png");
+    
+}
+
+
+.btnRedes{
+
+    width: fit-content;
+    height: fit-content;
+    border-radius: 100%;
+    border-color: rgba(0,0,0, 0);
+
+}
+.btntiktok{
+
+    width: 41px;
+    height: 41px;
+    border-radius: 100%;
+    border-color: rgba(0,0,0, 0);
+    
+}
+.tiktok{
+
+    border: 1px solid;
+    border-radius: 100%;
+    border-color: rgba(0,0,0, 0);
+    background-color: white;
+    color: black;
+
+}
+.tiktok:hover{
+
+    background-color: black;
+    color:white;
+
+}
+
+
+.galletas{
+
+    background-color: black;
+    color:white;
+    height: 150px;
+
+}
+
+.fontT{
+
+    font-family: 'DM Serif Display', serif;
+
+}
+.fontP{
+
+    font-family: 'Alice', serif;
+
+}
