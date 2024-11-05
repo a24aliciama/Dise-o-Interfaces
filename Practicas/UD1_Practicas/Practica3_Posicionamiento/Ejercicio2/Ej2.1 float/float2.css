@@ -1,0 +1,42 @@
+body{
+    background-color: white;
+    margin: 0;
+}
+
+#abuelo{
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    border: 2px dotted rgb(207, 117, 117);
+}
+
+#padre{
+    box-sizing: border-box;
+    margin: auto;
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90vw;
+    height: 70vh;
+    
+}
+
+#amarillo{
+    box-sizing: border-box;
+    float: right;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(240, 230, 140);
+    border: 2px solid rgb(77, 103, 88);
+
+}
+
+#azul{
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(224, 255, 255);
+    border: 2px solid rgb(207, 117, 117);
+}

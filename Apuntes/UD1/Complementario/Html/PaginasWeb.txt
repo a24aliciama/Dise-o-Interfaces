@@ -1,0 +1,14 @@
+Que es HTML semántico:
+https://es.semrush.com/blog/html-semantico/ 
+
+curso gratis:
+https://www.freecodecamp.org/espanol/news/aprende-html-y-css-curso-desde-cero/
+
+formularios
+https://www.freecodecamp.org/espanol/news/como-construir-una-forma-de-registro-con-etiquetas-flotantes-y-transiciones-usando-solamente/ 
+
+Centrar cosas
+https://www.freecodecamp.org/espanol/news/centrar-en-html-div-con-css/
+
+CSS Grid | Introducción Práctica desde Cero video:
+https://www.youtube.com/watch?v=QBOUSrMqlSQ&t=920s

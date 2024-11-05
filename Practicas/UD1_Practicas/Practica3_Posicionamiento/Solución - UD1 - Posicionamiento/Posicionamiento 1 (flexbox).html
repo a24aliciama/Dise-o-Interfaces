@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Posicionamiento Flexbox 1</title>
+  <style>
+    .box {
+      display: flex;
+      border: 2px dotted black;
+    }
+    .box>div {
+      flex: 1; /* Cada div ocupa un tercio del espacio disponible */
+      height: 480px;
+      box-sizing: border-box;
+    }
+    .box1 {
+      background-color: blue;
+    }
+    .box2 {
+      background-color: white;
+    }
+    .box3 {
+      background-color: red;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Posicionamiento Grid 2</title>
+  <style>
+    .box {
+      display: grid;
+      grid-template-rows: auto auto; /* Dos filas para top y bottom */
+      border: 2px dotted black;
+      padding: 10px;
+      gap: 10px; /* Espacio entre las filas */
+    }
+    .top {
+      background-color: coral;
+      height: 200px;
+    }
+    .bottom {
+      background-color: cornflowerblue;
+      height: 200px;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <div class="top"></div>
+    <div class="bottom"></div>
+  </div>
+</body>
+</html>

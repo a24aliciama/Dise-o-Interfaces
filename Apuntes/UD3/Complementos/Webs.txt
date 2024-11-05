@@ -1,0 +1,11 @@
+Creación y uso de componentes gráficos:
+https://interfaces.abrilcode.com/doku.php?id=bloque2%3Acomponentes
+
+Designing a Swing GUI in NetBeans IDE:
+https://netbeans.apache.org/tutorial/main/kb/docs/java/quickstart-gui/
+
+Tutorial: Build UI using Swing:
+https://www.jetbrains.com/help/idea/design-gui-using-swing.html
+
+Window Builder for JavaFX/Swing: DESCARGAR
+https://marketplace.visualstudio.com/items?itemName=Vika.window-builder

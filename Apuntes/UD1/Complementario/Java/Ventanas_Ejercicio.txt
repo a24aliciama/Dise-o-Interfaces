@@ -1,0 +1,3 @@
+https://clasesdeinformaticaweb.com/programas-en-java/ventanas-en-java-ejercicio-de-interfaces-i/
+
+https://clasesdeinformaticaweb.com/programas-en-java/jframe-y-jpanel-en-java-ejercicio-de-interfaces-ii/

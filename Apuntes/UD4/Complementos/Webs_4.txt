@@ -1,0 +1,11 @@
+ReportesJava video:
+https://www.youtube.com/watch?v=5ZsNc-1OgCo
+
+Reportes en PDF con Java y  MySQL video:
+https://codigosdeprogramacion.com/cursos/?lesson=9-reportes-en-pdf-con-java-y-mysql
+
+Como generar un PDF con HTML y Javascript Fácil video
+https://www.youtube.com/watch?v=DhTWjVFq-iU
+
+¿Cómo puede crear informes basados en web con HTML?:
+https://es.linkedin.com/advice/0/how-can-you-create-web-based-reports-html-skills-html?lang=es
