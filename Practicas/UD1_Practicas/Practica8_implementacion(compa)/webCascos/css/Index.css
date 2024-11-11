@@ -1,0 +1,16 @@
+body{
+    background-color: var(--rojo);
+}
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    color: aliceblue;
+    background-color: var(--rojo);
+
+}
+
+header{
+    display: inline-block;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aquamarine;
+}

@@ -1,0 +1,16 @@
+:root{
+    --rojo: #DB2509;
+    --rojo-oscuro: #B11E07;
+    --burdeos: #6D1204;
+    --burdeos-oscuro: #480900;
+
+    --gris: #8d7f7d;
+    --gris-claro: #e7d4d1;
+    --gris-oscuro: #474140;
+
+    --blanco: #ffecec;
+
+
+    --Titulo: 'Anton';
+    --texto: 'Open Sans', 'italic';
+}
