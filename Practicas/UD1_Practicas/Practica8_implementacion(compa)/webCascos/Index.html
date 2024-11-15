@@ -9,8 +9,10 @@
     <link rel="stylesheet" href="css/Index.css">
     <link rel="stylesheet" href="css/General.css">
 
-    <link rel="shortcut icon" href="./img/logo_fill.png" type="image/x-icon">
-
+   <!-- scrpts -->
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="index.js"></script>
+    
     <!--Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
@@ -18,7 +20,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- iconos -->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> 
+    <link rel="shortcut icon" href="./img/logo_fill.png" type="image/x-icon">
 
     <!--Fuentes-->
     <style>
@@ -30,6 +33,7 @@
     </style>
     
 
+
 </head>
 <body>
     <header>
@@ -37,7 +41,7 @@
        <menu>
             <ul>
                 <li>
-                    <a href="Index.html">HOME</a>
+                    <a id="aqui" href="Index.html">HOME</a>
                 </li>
                 <li>
                     <a id="Ubicacion" href="Ubicacion.html">UBICACION</a>
@@ -47,86 +51,114 @@
                 </li>
             </ul>
        </menu>
+       <button type="button" class="btn ">
+            <i class='bx bxs-cart bx-flashing fs-2' ></i>
+       </button>
     </header>
 
-    <aside>
-        <div>
-            <h1>Cascos</h1>
-            <ul>
-                <li>Jet</li>
-                <li>Integrales</li>
-                <li>Modulares</li>
-                <li>Auto</li>
-                <li>Offroad</li>
-            </ul>
-        </div>
-        <div>
-            <h1>Filtrar Por</h1>
-            <ul> Estilo
-                <li>Urban</li>
-                <li>Vintage</li>
-                <li>Sport</li>
-            </ul>
-            <ul>Marca
-                <li>Nos</li>
-                <li>Dmd</li>
-                <li>Bell</li>
-                <li>Caberg</li>
-            </ul>
-        </div>
-    </aside>
+    <div id="mid">
+        <aside>
+            <div>
+                <h1>Cascos</h1>
+                <ul>
+                    <li>Jet</li>
+                    <li>Integrales</li>
+                    <li>Modulares</li>
+                    <li>Auto</li>
+                    <li>Offroad</li>
+                </ul>
+            </div>
+            <div>
+                <h1>Filtrar Por</h1>
+                <ul> Estilo
+                    <li>Urban</li>
+                    <li>Vintage</li>
+                    <li>Sport</li>
+                </ul>
+                <ul>Marca
+                    <li>Nos</li>
+                    <li>Dmd</li>
+                    <li>Bell</li>
+                    <li>Caberg</li>
+                </ul>
+            </div>
+        </aside>
 
-    <section>
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="./img/casco1.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+        <div id="Cascos">
+            <div class="card card1">
+                <img class="card-img-top" src="./img/casco1.png" alt="Card image cap">
+                <div class="card-label position-absolute bottom-0">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
             </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="./img/casco2.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+            <!-- <div class="card card2">
+                <img class="card-img-top" src="./img/casco2.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
             </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="./img/casco3.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="card card3">
+                <img class="card-img-top" src="./img/casco3.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
             </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="./img/casco4.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="card card4">
+                <img class="card-img-top" src="./img/casco4.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
             </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="./img/casco5.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="card card5">
+                <img class="card-img-top" src="./img/casco5.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
             </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="./img/cascos6.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div class="card card6">
+                <img class="card-img-top" src="./img/casco6.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
             </div>
+            <div class="card card7">
+                <img class="card-img-top" src="./img/casco7.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card card8">
+                <img class="card-img-top" src="./img/casco8.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card card9">
+                <img class="card-img-top" src="./img/casco9.png" alt="Card image cap">
+                <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div> -->
         </div>
-    </section>
-
+    </div>
     <footer>
         <div>
             <a href="https://www.instagram.com/" target="_blank">
