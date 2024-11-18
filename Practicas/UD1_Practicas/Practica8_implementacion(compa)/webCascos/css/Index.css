@@ -92,7 +92,7 @@ menu > ul > li > #Ubicacion{
 }
 
 menu > ul > li > a:hover{
-    font-size: 3em;
+    font-size: 2.5em;
     text-decoration: none;
     color: var(--rojo-oscuro);
     
@@ -119,19 +119,104 @@ aside{
     
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* TARJETAS */
+
 #Cascos .card{
-    align-self: center; /* Centrar verticalmente */
+    align-self: center; 
     justify-self: center;
-    background-color: var(--gris-claro);
+    background-color: var(--blanco);
     border: none;
     border-radius: 10px;
     width: 90%;
     height: 85%;
-}#Cascos .card img{
-    border-radius: 10px;
 }
-#Cascos .card-label{
-    background-color: var(--gris);
-    border-radius: 10px;
-    display: none;
-}
+    #Cascos .card img{
+        position: relative;
+        left: 50px;          
+        top: -20px;           
+        width: 20em;       
+        transition: all 0.3s ease;
+    }
+    #Cascos .card-label{
+        border-radius: 10px;
+        display: none;
+        float: left;
+        width: 35%;
+        text-align: end;
+        right: 0px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+        .card-label h5{
+            font-size: 100%;
+            margin-bottom: 0px;
+            font-family: var(--Titulo);
+        }
+        .card-label p{
+            font-size: 80%;
+            font-family: var(--texto);
+        }
+        .card-label .btn{
+            font-family: var(--texto);
+            color: var(--burdeos-oscuro);
+
+        }.card-label .btn:hover{
+            color: var(--rojo);
+            transform: scale(1.1);
+        }.card-label .btn:focus{
+            box-shadow: 0 0 5px .2rem #480a00;
+        }
+
+
+    /*FORMULARIO*/
+    form {
+        width: 100%;
+        margin: 0 auto;
+        height: fit-content;
+    }
+        
+        form div {
+            text-align: right;
+        
+        }
+            .clasificacion {
+                direction: rtl;
+                unicode-bidi: bidi-override;
+            }
+        
+                form label {
+                    font-size: 20px;
+                    color: var(--gris-oscuro);
+                }label:hover,
+                label:hover ~ label {
+                    color: var(--rojo);
+                }
+                
+                input[type="radio"] {
+                    display: none;
+                }input[type="radio"]:checked ~ label {
+                    color: var(--rojo);
+                }
+                
+                
+                
+                
+                
+                
