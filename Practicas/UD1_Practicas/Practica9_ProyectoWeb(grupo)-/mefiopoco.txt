@@ -1,0 +1,26 @@
+<main>
+      <!-- DIFERENTES SECCIONES - ALICIA -->
+      <section id="sobreMi">
+
+        <h1>Sobre Mi</h1>
+
+
+        <div id="SM_foto"></div> 
+      
+
+        <div id="SM_text">
+          <div id="SMT_filtro"></div>
+          <p>
+            Hola, soy Manuel, un fotógrafo especializado en retratos intimistas de personas y animales. 
+            Mi trabajo se centra en capturar la esencia más genuina y profunda de mis sujetos, 
+            explorando la conexión entre la luz, la expresión y el alma. 
+            Me esfuerzo por crear imágenes que transmitan emociones y cuenten historias personales, 
+            donde cada mirada y gesto revele algo único y auténtico. Si estás buscando algo más que una simple imagen, 
+            y quieres capturar la verdadera esencia de un momento o de alguien especial, 
+            me encantaría colaborar contigo y crear recuerdos visuales que perduren en el tiempo.
+          </p>
+        </div>
+        <hr>
+
+      </section>
+    </main>
