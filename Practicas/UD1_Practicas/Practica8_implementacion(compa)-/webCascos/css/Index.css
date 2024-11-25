@@ -9,12 +9,6 @@ body{
 header{
     height: 10.5vh;
     background-color: var(--burdeos-oscuro);
-    /* background-image: url(../img/carretera2.jpg);
-    background-attachment:fixed;
-    background-position: center;
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position-y: -750px; */
     margin: 0px;
     padding: 0%;
 }
@@ -103,11 +97,70 @@ menu > ul > li > a:hover{
 }
 
 aside{
-    background-color: var(--burdeos);
+    background-color: var(--negro);
     padding-top: 30px;
     padding-left: 20px;
     flex: 1;
 }
+aside > h1{
+    font-family: var(--Titulo);
+    color: var(--rojo-oscuro);
+}
+#tipos {
+    background-color: var(--gris-oscuro);
+    width: 90%;
+    border-radius: 30px;
+    color: var(--blanco);
+    font-family: var(--texto);
+
+}
+#tipos > ul{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style-type: none;
+}
+#filtro{
+    background-color: var(--gris-oscuro);
+    width: 90%;
+    border-radius: 30px;
+    color: var(--blanco);
+    font-family: var(--texto);
+}
+#filtro > h3{
+    text-align: center;
+    font-family: var(--Titulo);
+    color: var(--rojo-oscuro);
+    padding-top: 20px;
+    letter-spacing: 1px;
+}
+#filtro  h6{
+    font-family: var(--Titulo);
+    letter-spacing: 1px;
+    color: var(--rojo);
+    padding-top: 10px;
+}
+#filtro  ul{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    list-style-type: none;
+}
+#filtro button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: var(--gris-oscuro);
+    font-family: var(--texto);
+    color: var(--blanco);
+    margin-left: 10%;
+    margin-bottom: 5%;
+    border: solid 2px rgba(0, 0, 0, 0);
+
+} #filtro button:focus{
+    box-shadow: none;
+    border: solid 2px var(--burdeos-oscuro);
+} #filtro button:hover{
+    border: solid 2px var(--burdeos-oscuro);
+}
+
 
 #Cascos{
     padding-left: 30px;
@@ -118,16 +171,6 @@ aside{
     background-color: var(--gris-claro);
     
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -204,14 +247,14 @@ aside{
                 form label {
                     font-size: 20px;
                     color: var(--gris-oscuro);
-                }label:hover,
-                label:hover ~ label {
+                }form label:hover,
+                form label:hover ~ label {
                     color: var(--rojo);
                 }
                 
-                input[type="radio"] {
+               form input[type="radio"] {
                     display: none;
-                }input[type="radio"]:checked ~ label {
+                }form input[type="radio"]:checked ~ label {
                     color: var(--rojo);
                 }
                 

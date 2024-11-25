@@ -58,8 +58,8 @@
 
     <div id="mid">
         <aside>
-            <div>
-                <h1>Cascos</h1>
+          <h1>Cascos</h1>
+            <div id="tipos">
                 <ul>
                     <li>Jet</li>
                     <li>Integrales</li>
@@ -68,19 +68,43 @@
                     <li>Offroad</li>
                 </ul>
             </div>
-            <div>
-                <h1>Filtrar Por</h1>
-                <ul> Estilo
-                    <li>Urban</li>
-                    <li>Vintage</li>
-                    <li>Sport</li>
+            <div id="filtro">
+                <h3>Filtrar Por</h1>
+                <ul id="estilo">
+                    <h6>Estilo</h6>
+                    <li>
+                      <input id="radioUrban" type="radio" name="Urban" >
+                      <label for="radioUrban">Urban</label>
+                    </li>
+                    <li>
+                      <input id="radioVintage" type="radio" name="Vintage" >
+                      <label for="radioVintage">Vintage</label>
+                    </li>
+                    <li>
+                      <input id="radioSport" type="radio" name="Sport" >
+                      <label for="radioSport">Sport</label>
+                    </li>
                 </ul>
-                <ul>Marca
-                    <li>Nos</li>
-                    <li>Dmd</li>
-                    <li>Bell</li>
-                    <li>Caberg</li>
+                <ul id="marca">
+                    <h6>Marca</h6>
+                    <li>
+                      <input id="radioNos" type="radio" name="Nos" >
+                      <label for="radioNos">Nos</label>
+                    </li>
+                    <li>
+                      <input id="radioDmd" type="radio" name="Dmd" >
+                      <label for="radioDmd">Dmd</label>
+                    </li>
+                    <li>
+                      <input id="radioBell" type="radio" name="Bell" >
+                      <label for="radioBell">Bell</label>
+                    </li>
+                    <li>
+                      <input id="radioCaberg" type="radio" name="Caberg" >
+                      <label for="radioCaberg">Caberg</label>
+                    </li>
                 </ul>
+                <button type="button" class="btn">Filtrar</button>
             </div>
         </aside>
 
@@ -348,6 +372,7 @@
             </div>
         </div>
     </div>
+    
     <footer>
         <div>
             <a href="https://www.instagram.com/" target="_blank">
@@ -367,9 +392,18 @@
             </a>
         </div>
         <div>
-
+          <h6>Contacto</h6>
+          <p>+34 678 435 432</p>
         </div>
-        <div></div>
+        <div>
+          <h6>Idioma</h6>
+          <a>Es</a>
+          <a>En</a>
+        </div>
+        <div>
+          <a>Terminos y condiciones</a>
+          <p>© MotorRide 2024</p>
+        </div>
     </footer>
 
 </body>
