@@ -12,3 +12,6 @@ https://www.freecodecamp.org/espanol/news/centrar-en-html-div-con-css/
 
 CSS Grid | Introducción Práctica desde Cero video:
 https://www.youtube.com/watch?v=QBOUSrMqlSQ&t=920s
+
+carruseles
+https://freefrontend.com/css-sliders/

@@ -41,7 +41,7 @@ header > button.btn {
     border: none;
 }
 
-#logo{
+header #logo{
     width: 100px;
     left: 20px;
     top: 20px;
@@ -156,11 +156,63 @@ aside > h1{
 
 } #filtro button:focus{
     box-shadow: none;
+    color: var(--rojo);
     border: solid 2px var(--burdeos-oscuro);
 } #filtro button:hover{
     border: solid 2px var(--burdeos-oscuro);
+    color: var(--rojo);
 }
 
+#foot{
+    display: grid !important; 
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+    align-items: center;
+    background-color: var(--negro);
+    color: var(--blanco);
+}
+#foot section#contacto{
+    grid-column: 2;
+}#foot img{
+    grid-column: 1 !important;
+    width: 150px;
+    border-radius: 20px;
+    margin-left:10%;
+
+}
+#foot section#info{
+    grid-column: 3;
+    display: flex !important;
+    flex-direction: row;
+    width: 100%;
+}#foot #info div{
+    flex: 1;
+}
+#foot a{
+    color: var(--rojo);
+    text-decoration: none;
+    font-family: var(--texto);
+}#foot a:hover{
+    color: var(--rojo-oscuro);
+    text-decoration: none;
+}
+#foot p{
+    font-size: small;
+    font-family: var(--texto);
+}
+#foot h6{
+    font-family: var(--Titulo);
+    letter-spacing: 1px;
+}
+#foot .redes{
+    background-color: var(--rojo) !important;
+    color: var(--blanco) !important;
+} #foot .redes:hover{
+    border: none; 
+    background-color: var(--rojo-oscuro) !important; 
+} #foot .redes:focus{
+    box-shadow: none;
+}
 
 #Cascos{
     padding-left: 30px;
