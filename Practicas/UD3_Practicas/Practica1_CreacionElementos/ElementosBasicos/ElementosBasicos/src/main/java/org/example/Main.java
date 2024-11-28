@@ -8,5 +8,8 @@ public class Main {
         VentanaBotones.ventana();
         VentanaNombre.ventana();
         VentanaTextoEtiqueta.ventana();
+        VentanaDialogo.ventana();
+        VentanaDesplegable.ventana();
+        VentanaContrasenha.ventana();
     }
 }
