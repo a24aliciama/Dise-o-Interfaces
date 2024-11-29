@@ -3,11 +3,17 @@ package org.example;
 import javax.swing.*;
 
 public class VentanaDialogo {
+
+    static JFrame ventana = new JFrame();
+
     public static void ventana() {
-        JFrame ventana = new JFrame();
-        ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+        ventana.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         ventana.setSize(400, 300);
         ventana.setResizable(false);
+
+        JPanel panel = new JPanel();
+        ventana.add(panel);
 
         JButton botonEdad = new JButton("Edad");
         botonEdad.addActionListener(e -> {
@@ -16,9 +22,13 @@ public class VentanaDialogo {
         });
         botonEdad.setVisible(true);
 
-        ventana.add(botonEdad);
+        panel.add(botonEdad);
 
         ventana.setVisible(true);
 
+    }
+
+    public static void cerrar(){
+        ventana.dispose();
     }
 }

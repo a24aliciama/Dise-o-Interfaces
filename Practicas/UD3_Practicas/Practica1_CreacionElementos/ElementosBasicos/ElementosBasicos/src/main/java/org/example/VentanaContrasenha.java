@@ -6,13 +6,18 @@ import java.awt.event.FocusEvent;
 import java.awt.event.FocusListener;
 
 public class VentanaContrasenha {
+    static JFrame ventana = new JFrame();
+
     public static void ventana() {
-        JFrame ventana = new JFrame();
-        ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+        ventana.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         ventana.setSize(400, 300);
         ventana.setResizable(false);
 
-        ventana.setLayout(new java.awt.GridLayout(5, 1));
+        JPanel panel = new JPanel();
+        ventana.add(panel);
+
+        panel.setLayout(new java.awt.GridLayout(5, 1));
 
         JTextField usuario = new JTextField("Introduce tu nombre de usuario");
         JPasswordField contrasenha = new JPasswordField("contraseña");
@@ -70,11 +75,11 @@ public class VentanaContrasenha {
         });
 
         // Añadir componentes al panel
-        ventana.add(new JLabel("Usuario: "));
-        ventana.add(usuario);
-        ventana.add(new JLabel("Contraseña: "));
-        ventana.add(contrasenha);
-        ventana.add(botonLogin);
+        panel.add(new JLabel("Usuario: "));
+        panel.add(usuario);
+        panel.add(new JLabel("Contraseña: "));
+        panel.add(contrasenha);
+        panel.add(botonLogin);
 
         ventana.setVisible(true);
 
@@ -83,4 +88,7 @@ public class VentanaContrasenha {
         SwingUtilities.invokeLater(contrasenha::transferFocus);
     }
 
+    public static void cerrar(){
+        ventana.dispose();
+    }
 }

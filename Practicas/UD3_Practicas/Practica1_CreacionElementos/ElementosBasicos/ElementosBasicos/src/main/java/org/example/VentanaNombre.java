@@ -6,14 +6,18 @@ import java.awt.event.FocusEvent;
 import java.awt.event.FocusListener;
 
 public class VentanaNombre {
+
+    static JFrame ventana = new JFrame();;
+
     public static void ventana(){
-        JFrame ventana = new JFrame();
-        ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        ventana.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         ventana.setSize(400, 300);
         ventana.setResizable(false);
 
+        JPanel panel = new JPanel();
+        ventana.add(panel);
 
-        ventana.setLayout(new java.awt.GridLayout(2, 1));
+        panel.setLayout(new java.awt.GridLayout(2, 1));
 
         JTextField nombre = new JTextField("Introduce tu nombre");
         nombre.setForeground(Color.GRAY);
@@ -36,7 +40,7 @@ public class VentanaNombre {
             }
         });
 
-        ventana.add(nombre);
+        panel.add(nombre);
 
         JButton botonEnviar = new JButton("Enviar");
         botonEnviar.addActionListener(e -> {
@@ -49,10 +53,14 @@ public class VentanaNombre {
         });
         botonEnviar.setVisible(true);
 
-        ventana.add(botonEnviar);
+        panel.add(botonEnviar);
 
         ventana.setVisible(true);
 
         SwingUtilities.invokeLater(nombre::transferFocus); //para que no enfoque nada mas abrir la ventana
+    }
+
+    public static void cerrar(){
+        ventana.dispose();
     }
 }

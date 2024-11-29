@@ -6,17 +6,21 @@ import java.awt.event.FocusEvent;
 import java.awt.event.FocusListener;
 
 public class VentanaTextoEtiqueta {
+
+    static JFrame ventana = new JFrame();
+
     public static void ventana(){
-        JFrame ventana = new JFrame();
-        ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        ventana.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         ventana.setSize(400, 300);
         ventana.setResizable(false);
 
+        JPanel panel = new JPanel();
+        ventana.add(panel);
 
-        ventana.setLayout(new java.awt.GridLayout(5, 1));
+        panel.setLayout(new java.awt.GridLayout(5, 1));
 
         JLabel nombreLabel = new JLabel("Nombre:");
-        ventana.add(nombreLabel);
+        panel.add(nombreLabel);
 
         JTextField nombre = new JTextField("Introduce tu nombre");
         nombre.setForeground(Color.GRAY);
@@ -39,10 +43,10 @@ public class VentanaTextoEtiqueta {
             }
         });
 
-        ventana.add(nombre);
+        panel.add(nombre);
 
         JLabel apellidoLabel = new JLabel("Apellido:");
-        ventana.add(apellidoLabel);
+        panel.add(apellidoLabel);
 
         JTextField apellido = new JTextField("Introduce tu apellido");
         apellido.setForeground(Color.GRAY);
@@ -65,7 +69,7 @@ public class VentanaTextoEtiqueta {
             }
         });
 
-        ventana.add(apellido);
+        panel.add(apellido);
 
         JButton botonEnviar = new JButton("Enviar");
         botonEnviar.addActionListener(e -> {
@@ -80,11 +84,16 @@ public class VentanaTextoEtiqueta {
         });
         botonEnviar.setVisible(true);
 
-        ventana.add(botonEnviar);
+        panel.add(botonEnviar);
 
         ventana.setVisible(true);
 
         SwingUtilities.invokeLater(nombre::transferFocus); //para que no enfoque nada mas abrir la ventana
         SwingUtilities.invokeLater(apellido::transferFocus);
+    }
+
+    public static void cerrar(){
+        //ventana = new JFrame();
+        ventana.dispose();
     }
 }
