@@ -1,0 +1,111 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variables CSS para colores y fuentes */
+:root {
+    --Naranja: #f4791b;
+    --NaranjaClaro: #FA9446;
+    --Verde: #2BC187;
+    --VerdeClaro: #1BF4A1;
+    --AzulOscuro: #235EA1;
+    --Azul: #468DAE;
+    --AzulClaro: #649CB7;
+    --BlancoAzulOscuro: #D2E5EE;
+    --BlancoAzul: #E8F0F4;
+
+    --fontPrimaria: 'Arial', sans-serif;
+    --fontSecundaria: 'Arial', serif;
+}
+
+/* Estilos globales */
+
+header{
+    width: 100vw;
+    height: 7vh;
+}
+
+.logo{
+    position: absolute;
+    width: 30vw;
+    min-width: 5vh;
+    height: 5vh;
+    margin-left: 1%;
+    margin-top: 10px;
+
+    background: url(../img/logo.png);
+    background-size:contain; /* Ajusta la imagen al tamaño del div */
+    background-repeat: no-repeat;
+    background-position: center; /* Centrar la imagen */
+}
+
+.redes{
+    position: absolute;
+    right: 0px;
+    width: 20vw;
+    min-width: 5vh;
+    height: 5vh;
+    margin-right: 1%;
+    margin-top: 10px;
+    background-color: #1BF4A1;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
+}#fb{
+    width: fit-content;
+    columns: 1;
+}#ing{
+    columns: 2;
+}#tw{
+    columns: 3;
+}#yt{
+    columns: 4;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: var(--fontPrimaria);
+    background-color: var(--AzulOscuro);
+}
+
+.imgFondo{
+    background-image: url('../img/imgFondo.png');
+    background-size: contain; /* Ajusta la imagen al tamaño del div */
+    background-position: center; /* Centrar la imagen */
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 30vw;
+    height: 90vh;
+    right: 1px;
+    bottom: 1px;
+}
+
+footer{
+
+}
+
+/* Clases reutilizables */
+.canva {
+    background-color: var(--BlancoAzul);
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.btn-secondary {
+    background-color: var(--secondary-color);
+    color: white;
+}
