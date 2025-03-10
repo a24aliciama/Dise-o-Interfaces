@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Matriculas>
+    <Centro>
+        <CodigoCentro>15006141</CodigoCentro>
+    </Centro>
+    <Alumnos>
+        <Alumno>
+            <ID>3253</ID>
+            <Matricula>
+                <CicloFormativo>
+                    <Codigo>CSIFC02</Codigo>
+					<Modalidad>Distancia</Modalidad>
+                    <Nombre>Desarrollo de Aplicaciones Multiplataforma</Nombre>
+                    <FechaMatricula>01-09-2024</FechaMatricula>
+					<Modulo>
+						<Codigo>0621</Codigo>
+						<Nombre>Programación de Servicios y Procesos</Nombre>
+					</Modulo>
+					<Modulo>
+						<Codigo>0619</Codigo>
+						<Nombre>Desarrollo de Interfaces</Nombre>
+					</Modulo>
+					<Modulo>
+						<Codigo>0614</Codigo>
+						<Nombre>Bases de Datos</Nombre>
+					</Modulo>
+				</CicloFormativo>
+            </Matricula>
+        </Alumno>
+		<!------- ... ... ... ----->			
+		<Alumno>
+            <ID>0057</ID>
+            <Matricula>
+                <CicloFormativo>
+                    <Codigo>CMIFC01</Codigo>
+					<Modalidad>Ordinario</Modalidad>
+                    <Nombre>Sistemas Microinformáticos y Redes</Nombre>
+                    <FechaMatricula>01-09-2024</FechaMatricula>
+					<Modulo>
+						<Codigo>0220</Codigo>
+						<Nombre>Montaje y Mantenimiento de Equipos</Nombre>
+					</Modulo>
+					<Modulo>
+						<Codigo>0223</Codigo>
+						<Nombre>Sistemas Operativos en Red</Nombre>
+					</Modulo>
+					<Modulo>
+						<Codigo>0225</Codigo>
+						<Nombre>Seguridad Informática</Nombre>
+					</Modulo>
+					<Modulo>
+						<Codigo>0228</Codigo>
+						<Nombre>Formación y Orientación Laboral (FOL)</Nombre>
+					</Modulo>
+				</CicloFormativo>
+            </Matricula>
+        </Alumno>
+	</Alumnos>
+</Matriculas>

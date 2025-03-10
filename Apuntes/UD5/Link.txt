@@ -1,0 +1,27 @@
+https://www.w3schools.com/xml/tryxslt.asp?xmlfile=cdcatalog&xsltfile=cdcatalog
+XML Code XSLT Code Editor XML-XSLT-HTML (online)
+
+https://magictool.ai/tool/xslt-transformation/es/
+ Editor XML a XML vía XSLT (online)
+
+https://www.develou.com/xml-lenguaje/
+Tutorial Básico Del Lenguaje Xml
+
+https://www.mclibre.org/consultar/xml/lecciones/xml-xslt.html
+XSLT: Transformaciones XSL
+
+https://www.data2type.de/es/xml-xslt-xslfo/xslt/xslt-introduccion/soluciones
+Soluciones a los ejercicios de XSLT
+
+https://www.youtube.com/watch?v=bvWmayMoZxw&list=PLM-p96nOrGcbud8wFsMe6Yq4-FBP-o37N
+Videotutoriales XSLT (8 vídeos de 10 min)
+
+https://miguel.life/pro/es/blog/2022/apuntes-leguajes-marcas-xslt/
+[Apuntes] Lenguajes de marcas: XSLT
+
+https://www.ibm.com/docs/es/i/7.3?topic=functions-transforming-xslt-stylesheets
+Ejemplo: Transformación con hojas de estilo XSLT
+
+https://oscarmaestre.github.io/lenguajes_marcas/ejercicios/xslt/anexo_ejercicios_xslt.html
+Anexo: ejercicios sobre XSLT
+

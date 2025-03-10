@@ -1,0 +1,20 @@
+https://www.zaptest.com/es/que-es-la-prueba-de-software-de-interfaz-de-usuario-profundizacion-en-los-tipos-procesos-herramientas-y-aplicacion
+¿Qué es la prueba de software de interfaz de usuario? Profundización en los tipos, procesos, herramientas y aplicación
+
+
+https://miso-4208-labs.gitlab.io/book/chapter4/pruebas-de-gui-o-pruebas-basadas-en-la-gui.html
+¿Pruebas de GUI, o pruebas basadas en la GUI?
+
+
+https://www.startechup.com/es/blog/4-front-end-automated-testing-tools/
+Optimización del desarrollo web con pruebas automatizadas de front-end
+
+
+https://www.guru99.com/es/gui-testing.html
+Pruebas de GUI: casos de prueba de UI (ejemplos)
+
+https://www.youtube.com/watch?v=IKd1PPmVkQA
+Introducción a los Tests de Automatización de UI
+
+https://geekflare.com/es/application-automation-tools/
+11 mejores herramientas de pruebas de automatización para agilizar las pruebas de aplicaciones web
